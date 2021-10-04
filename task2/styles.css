@@ -16,6 +16,7 @@ caption {
 thead {
   background-color: aqua;
 }
+
 tr {
   line-height: 31px;
 }
@@ -35,9 +36,7 @@ th {
   padding: 4px;
   text-align: right;
 }
-th {
-  font-weight: 700;
-}
+th,
 tfoot {
   font-weight: 700;
 }

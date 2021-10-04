@@ -1,0 +1,25 @@
+* {
+  box-sizing: border-box;
+}
+table {
+  border: 1px solid black;
+  border-collapse: collapse;
+  margin: 16px;
+}
+td {
+  text-align: center;
+  height: 50px;
+  width: 50px;
+  border: 1px solid black;
+}
+.name-td {
+  border: none !important;
+  background-color: white !important;
+}
+.odd-row > td:nth-child(even) {
+  background-color: black;
+}
+
+.even-row > td:nth-child(odd) {
+  background-color: black;
+}
