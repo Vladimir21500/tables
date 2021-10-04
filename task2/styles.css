@@ -40,3 +40,6 @@ th,
 tfoot {
   font-weight: 700;
 }
+th {
+  padding-bottom: 6px;
+}
