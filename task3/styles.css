@@ -16,10 +16,10 @@ td {
   border: none !important;
   background-color: white !important;
 }
-.odd-row > td:nth-child(even) {
+.odd-row > td:nth-child(odd) {
   background-color: black;
 }
 
-.even-row > td:nth-child(odd) {
+.even-row > td:nth-child(even) {
   background-color: black;
 }
